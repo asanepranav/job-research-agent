@@ -1,5 +1,7 @@
 # 🤖 Job Research Agent
 
+![Demo](demo.png)
+
 An autonomous AI agent that researches job opportunities, analyzes required skills, and drafts personalized outreach emails — all in one go.
 
 Built with **LangChain ReAct · Groq LLaMA 3.1 · Tavily Search · Streamlit**
@@ -67,13 +69,3 @@ job-research-agent/
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-## Concepts learned
-
-- **ReAct pattern** — Reasoning + Acting loop
-- **Tool use / function calling** — LLM decides which function to call
-- **AgentExecutor** — runs the think-act-observe loop
-- **Prompt engineering for agents** — structured scratchpad format
-- **Tavily API** — real-time web search for LLM agents
